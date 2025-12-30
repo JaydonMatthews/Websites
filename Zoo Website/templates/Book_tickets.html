@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Zoo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+          <li class="logo"><a href="/home"><img src="{{ url_for('static', filename='logo.png') }}" alt="Zoo Logo"></a></li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/planyourvisit">Plan Your Visit</a></li>
+            <li><a href="/whatshere">What's Here</a></li>
+            <li><a href="/membership">Membership</a></li>
+            <li><a href="/hotel">Hotel</a></li>
+            <li class="booking"><a href="/booktickets">Book Tickets</a></li>
+        </ul>
+</body>
